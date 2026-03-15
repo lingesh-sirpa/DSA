@@ -21,7 +21,6 @@ class Solution {
 
      int[][] ans = new int[st.size()][2];
      int k = ans.length-1;
-     int j = st.size()-1;
      while(st.size() > 0){
         ans[k] = st.pop();
         k--;
